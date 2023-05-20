@@ -152,6 +152,103 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-【收录】Linux常见快捷操作" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2023/05/20/%E3%80%90%E6%94%B6%E5%BD%95%E3%80%91Linux%E5%B8%B8%E8%A7%81%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C/">【收录】Linux常见快捷操作</a>
+    </h1>
+  
+
+        
+        <a href="/2023/05/20/%E3%80%90%E6%94%B6%E5%BD%95%E3%80%91Linux%E5%B8%B8%E8%A7%81%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C/" class="archive-article-date">
+  	<time datetime="2023-05-20T08:50:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-05-20</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<p>[[#1. 关于如何删除光标前的一个单词]]</p>
+<p>[[#2. 关于如何撤销最近的删除操作]]</p>
+</blockquote>
+<hr>
+<h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><blockquote>
+<p>用于记录我学习Linux命令的过程。</p>
+</blockquote>
+<hr>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="1-关于如何删除光标前的一个单词"><a href="#1-关于如何删除光标前的一个单词" class="headerlink" title="1. 关于如何删除光标前的一个单词"></a>1. 关于如何删除光标前的一个单词</h2><p>举例：在Linux的命令行终端中, 假设命令行中有一条很长的命令, 我想一个单词一个单词的对它进行删除, 我该咋办?</p>
+<p>操作：<code>Ctrl + W</code></p>
+<figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Q(MyPrompt):</span><br><span class="line">在Linux的命令行终端中, 假设命令行中有一条很长的命令, 我想一个单词一个单词的对它进行删除, 我该咋办?</span><br><span class="line"></span><br><span class="line">A(NewBing):</span><br><span class="line">在Linux命令行终端中，您可以使用Ctrl + W快捷键来删除光标前的一个单词。您可以重复按下Ctrl + W来逐个删除单词。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="2-关于如何撤销最近的删除操作"><a href="#2-关于如何撤销最近的删除操作" class="headerlink" title="2. 关于如何撤销最近的删除操作"></a>2. 关于如何撤销最近的删除操作</h2><p>举例：在Linux的命令行终端中, 假设命令行中有一条很长的命令, 我刚刚删除了几个单词，我该如何撤销之前的删除操作?</p>
+<p>操作：<code>Ctrl + Shift + _</code></p>
+<figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Q(MyPrompt):</span><br><span class="line">在Linux的命令行终端中, 假设命令行中有一条很长的命令, 我刚刚删除了几个单词，我该如何撤销之前的删除操作?</span><br><span class="line"></span><br><span class="line">A(NewBing):</span><br><span class="line">在Linux的命令行终端中，您可以使用 <span class="string">`Ctrl + Shift + _`</span> 快捷键来撤销最近的删除操作。请注意，这个快捷键可能不是所有的终端模拟器都支持的。如果您使用的终端模拟器不支持这个快捷键，您可以尝试使用其他快捷键来恢复删除的内容，例如 <span class="string">`Alt + r`</span> 或 <span class="string">`Ctrl + x + u`</span>。</span><br><span class="line"></span><br><span class="line">另外，您也可以使用终端的历史记录功能来恢复删除的内容。在大多数终端模拟器中，您可以使用上下箭头键来浏览历史记录。如果您刚刚删除了一些内容，可以按上箭头键来查找之前输入过的命令，然后再进行修改。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="3-如何在命令行中按顺序执行多条命令"><a href="#3-如何在命令行中按顺序执行多条命令" class="headerlink" title="3. 如何在命令行中按顺序执行多条命令"></a>3. 如何在命令行中按顺序执行多条命令</h2><p>举例：我想在Linux终端中用一条命令去实现先执行”hexo clean”命令，然后再执行”hexo g”命令， 最后执行”hexo d”命令</p>
+<p>操作1：<code>hexo clean; hexo g; hexo d</code></p>
+<p>操作2：<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
+<figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>st</span><br><span class="line">Q(MyPrompt):</span><br><span class="line">我想在Linux终端中用一条命令去实现先执行<span class="string">&quot;hexo clean&quot;</span>命令，然后再执行<span class="string">&quot;hexo g&quot;</span>命令， 最后执行<span class="string">&quot;hexo d&quot;</span>命令</span><br><span class="line"></span><br><span class="line">A(NewBing):</span><br><span class="line">在 Linux 终端中，您可以使用分号 <span class="string">`;`</span> 来分隔多个命令，这样它们就会按顺序依次执行。例如，如果您想要先执行 <span class="string">`hexo clean`</span> 命令，然后再执行 <span class="string">`hexo g`</span> 命令，最后执行 <span class="string">`hexo d`</span> 命令，可以使用以下命令：</span><br><span class="line"></span><br><span class="line">\<span class="string">`\`</span>\<span class="string">`sh</span></span><br><span class="line"><span class="string">hexo clean; hexo g; hexo d</span></span><br><span class="line"><span class="string">\`</span>\<span class="string">`\`</span></span><br><span class="line"></span><br><span class="line">在这个例子中，三个命令将会按顺序依次执行。当一个命令执行完成后，下一个命令将会开始执行。</span><br><span class="line"></span><br><span class="line">另外，您也可以使用 <span class="string">`&amp;&amp;`</span> 运算符来连接多个命令。与分号不同的是，当使用 <span class="string">`&amp;&amp;`</span> 运算符时，只有当前一个命令执行成功后，下一个命令才会开始执行。例如：</span><br><span class="line"></span><br><span class="line">\<span class="string">`\`</span>\<span class="string">`sh</span></span><br><span class="line"><span class="string">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span></span><br><span class="line"><span class="string">\`</span>\<span class="string">`\`</span></span><br><span class="line"></span><br><span class="line">在这个例子中，如果 <span class="string">`hexo clean`</span> 命令执行失败（返回非零值），那么 <span class="string">`hexo g`</span> 和 <span class="string">`hexo d`</span> 命令都不会被执行。</span><br><span class="line"></span><br><span class="line"><span class="number">2</span>nd</span><br><span class="line">Q(MyPrompt):</span><br><span class="line">那么<span class="string">&quot;;&quot;</span>和<span class="string">&quot;&amp;&amp;&quot;</span>哪个更好用?</span><br><span class="line"></span><br><span class="line">A(NewBing):</span><br><span class="line">分号 <span class="string">`;`</span> 和 <span class="string">`&amp;&amp;`</span> 运算符都可以用来在终端中连接多个命令，但它们的行为不同。分号 <span class="string">`;`</span> 用于按顺序依次执行多个命令，而 <span class="string">`&amp;&amp;`</span> 运算符用于在前一个命令执行成功后再执行下一个命令。</span><br><span class="line"></span><br><span class="line">哪个更好用取决于您的需求。如果您希望无论前一个命令是否成功，都要执行下一个命令，那么可以使用分号 <span class="string">`;`</span>。例如，如果您想要先删除一个文件，然后再创建一个新文件，可以使用以下命令：</span><br><span class="line"></span><br><span class="line">\<span class="string">`\`</span>\<span class="string">`sh</span></span><br><span class="line"><span class="string">rm file.txt; touch file.txt</span></span><br><span class="line"><span class="string">\`</span>\<span class="string">`\`</span></span><br><span class="line"></span><br><span class="line">在这个例子中，无论 <span class="string">`rm`</span> 命令是否成功，<span class="string">`touch`</span> 命令都会被执行。</span><br><span class="line"></span><br><span class="line">如果您希望只有在前一个命令执行成功后才执行下一个命令，那么可以使用 <span class="string">`&amp;&amp;`</span> 运算符。例如，如果您想要先编译一个程序，然后再运行它，可以使用以下命令：</span><br><span class="line"></span><br><span class="line">\<span class="string">`\`</span>\<span class="string">`sh</span></span><br><span class="line"><span class="string">make &amp;&amp; ./program</span></span><br><span class="line"><span class="string">\`</span>\<span class="string">`\`</span></span><br><span class="line"></span><br><span class="line">在这个例子中，只有当 <span class="string">`make`</span> 命令执行成功（返回零值）时，<span class="string">`./program`</span> 命令才会被执行。</span><br><span class="line"></span><br><span class="line">总之，分号 <span class="string">`;`</span> 和 <span class="string">`&amp;&amp;`</span> 运算符都很有用，它们可以用来根据您的需求来连接多个命令。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<hr>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">test V1.0</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/05/20/%E3%80%90%E6%94%B6%E5%BD%95%E3%80%91Linux%E5%B8%B8%E8%A7%81%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-我的第一篇博客文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -380,6 +477,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">test V1.0</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
