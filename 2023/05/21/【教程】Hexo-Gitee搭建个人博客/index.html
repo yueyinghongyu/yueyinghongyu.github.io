@@ -6,18 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hello World | Hexo</title>
+  <title>【教程】Hexo+Gitee搭建个人博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="目录 一、准备内容 二、环境配置  2.1 安装npm包管理软件[2.2 安装并配置Git](#2.2 安装并配置Git)    说明 本篇文档用于记录自己结合参考内容使用 Hexo+Gitee 搭建个人博客的学习过程。   正文一、准备内容 本人情况说明：我是在一台装有CentOS7.x操作系统(一种Linux发行版)的阿里云服务器上安装我的Hexo博客框架(一个基于Node.js的静态博客网站">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2023/05/20/hello-world/index.html">
+<meta property="og:title" content="【教程】Hexo+Gitee搭建个人博客">
+<meta property="og:url" content="http://example.com/2023/05/21/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hexo-Gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="目录 一、准备内容 二、环境配置  2.1 安装npm包管理软件[2.2 安装并配置Git](#2.2 安装并配置Git)    说明 本篇文档用于记录自己结合参考内容使用 Hexo+Gitee 搭建个人博客的学习过程。   正文一、准备内容 本人情况说明：我是在一台装有CentOS7.x操作系统(一种Linux发行版)的阿里云服务器上安装我的Hexo博客框架(一个基于Node.js的静态博客网站">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-05-19T16:20:24.372Z">
-<meta property="article:modified_time" content="2023-05-19T16:20:24.372Z">
+<meta property="article:published_time" content="2023-05-21T04:48:12.000Z">
+<meta property="article:modified_time" content="2023-05-21T04:51:31.663Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="test, V1.0">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -154,39 +155,185 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-【教程】Hexo-Gitee搭建个人博客" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      【教程】Hexo+Gitee搭建个人博客
     </h1>
   
 
         
-        <a href="/2023/05/20/hello-world/" class="archive-article-date">
-  	<time datetime="2023-05-19T16:20:24.372Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-05-20</time>
+        <a href="/2023/05/21/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hexo-Gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+  	<time datetime="2023-05-21T04:48:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-05-21</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><blockquote>
+<p><a href="#%E4%B8%80%E3%80%81%E5%87%86%E5%A4%87%E5%86%85%E5%AE%B9">一、准备内容</a></p>
+<p><a href="#%E4%BA%8C%E3%80%81%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">二、环境配置</a></p>
+<blockquote>
+<p><a href="#2.1%E5%AE%89%E8%A3%85npm%E5%8C%85%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6">2.1 安装npm包管理软件</a><br>[2.2 安装并配置Git](#2.2 安装并配置Git)</p>
+</blockquote>
+</blockquote>
+<hr>
+<h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><blockquote>
+<p>本篇文档用于记录自己结合参考内容使用 <strong>Hexo+Gitee</strong> 搭建个人博客的学习过程。</p>
+</blockquote>
+<hr>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="一、准备内容"><a href="#一、准备内容" class="headerlink" title="一、准备内容"></a>一、准备内容</h2><blockquote>
+<p>本人情况说明：我是在一台装有CentOS7.x操作系统(一种Linux发行版)的阿里云服务器上安装我的Hexo博客框架(一个基于Node.js的静态博客网站生成器)，使用Hexo将我的Markdown文件转为HTML文件，然后通过使用 SSH 协议与远程仓库(例如在Github上创建的仓库)通信并传输我的博客文件，依托于代码托管平台，我可以在不用买云服务器的方式部署我的个人博客，通过在浏览器URL栏中输入符合特定格式的远程仓库名称，我就能在其它设备上访问我的个人博客网站。</p>
+</blockquote>
+<p>系统环境：一台Linux虚拟机(本文内容以<strong>CentOS7.5</strong>版本系统为例) &#x2F;&#x2F;没试过在Windows系统下通过npm安装Hexo，其实可以直接在windows上装，但是会麻烦不少，本教程适用于类unix的环境。</p>
+<p>远程终端连接工具：<a target="_blank" rel="noopener" href="https://www.xshell.com/zh/free-for-home-school/">XShell7（家庭&#x2F;学校免费）</a> &#x2F;&#x2F; CentOS7.x系统自己的终端样式不好看，使用XShell7更加方便操作该系统。</p>
+<p>当安装好CentOS7.5系统和XShell7之后，使用XShell7以root用户的身份连接CentOS7.5系统。</p>
+<hr>
+<h2 id="二、环境配置"><a href="#二、环境配置" class="headerlink" title="二、环境配置"></a>二、环境配置</h2><h3 id="2-1-安装npm包管理软件"><a href="#2-1-安装npm包管理软件" class="headerlink" title="2.1 安装npm包管理软件"></a>2.1 安装npm包管理软件</h3><blockquote>
+<p>说明：搭建hexo首先需要有<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">Node.js</a>的环境，可以从官网直接下载。 </p>
+</blockquote>
+<p>【1】当然，你也可以直接通过终端下的包管理软件一键下载安装，比如说我的环境是CentOS7.x，使用 <code>yum</code> 进行包管理，可以通过如下命令下载安装：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install nodejs</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>【2】最后查看版本信息以确认环境配置信息(下载安装的Node.js中就包含有npm)：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v # 查看node版本信息  </span><br><span class="line">npm -v # 查看npm版本信息</span><br></pre></td></tr></table></figure>
+<p>回车后能够正常查看到版本信息，说明环境配置就已经完成了。</p>
+<p>需要提醒一下，<strong>npm</strong> 默认的官网源可能会比较慢，如果想要后续的下载速度快一些，可以通过下面的方式将源设置为淘宝源（毕竟它的服务器是在国外的嘛）。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm config get registry # 查看原来的源  </span><br><span class="line">npm config set registry https://registry.npm.taobao.org # 修改为淘宝源  </span><br><span class="line">npm config get registry # 查看现在的源</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>或者，也可以通过<strong>npm</strong>下载淘宝的cnpm管理器，之后也可以通过cnpm下载安装Hexo。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=http://registry.npm.taobao.org #安装淘宝的cnpm管理器</span><br></pre></td></tr></table></figure>
+<p>查看cnpm版本</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm -v #查看cnpm版本</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<hr>
+<h3 id="2-2-安装并配置Git"><a href="#2-2-安装并配置Git" class="headerlink" title="2.2 安装并配置Git"></a>2.2 安装并配置Git</h3><blockquote>
+<p>说明：我们是需要通过Git将博客文件推送到远程仓库的。</p>
+</blockquote>
+<p>【1】安装Git</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y git</span><br></pre></td></tr></table></figure>
+
+<p>【2】验证安装。要检查安装是否成功，请运行以下命令，它将打印出 Git 的版本号</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+
+<p>【3】进行Git信息配置</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;你的邮箱&quot;</span>  </span><br><span class="line">git config --global user.name <span class="string">&quot;你的用户名&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>另外，向仓库推送代码有<strong>HTTPS协议</strong>和<strong>SSH协议</strong>。<br>如果无法通过HTTPS协议，我们就用SSH协议推送代码。</p>
+<p>【4】使用SSH协议需要先生成公钥</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;自己Git账号的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>生成SSH Key完毕之后，去到存放SSH公钥和SSH私钥所在的目录(在Linux系统下，如果不知道在哪，可以在终端输入这条命令)</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> $(find / -name .ssh)</span><br></pre></td></tr></table></figure>
+
+<p>进入到 <strong>.ssh目录</strong> 会发现两个文件 <strong>id_rsa</strong>(SSH私钥) 和 <strong>id_rsa.pub</strong>(SSH公钥)</p>
+<p>【5】通过 <strong>vim</strong> 文本编辑器进查看<strong>id_rsa_pub</strong>文件，然后复制文件内的所有内容，进入代码托管平台(如Github、Gitee等)，进入网站平台有关<strong>SSH公钥</strong>的设置界面，将复制的公钥文件内容粘贴到公钥的文本输入框，然后点击确定按钮，这样就OK了。</p>
+<hr>
+<h2 id="三、安装并使用Hexo框架"><a href="#三、安装并使用Hexo框架" class="headerlink" title="三、安装并使用Hexo框架"></a>三、安装并使用Hexo框架</h2><h3 id="3-1-安装Hexo框架"><a href="#3-1-安装Hexo框架" class="headerlink" title="3.1 安装Hexo框架"></a>3.1 安装Hexo框架</h3><p>【1】有了 <strong>npm</strong> 包管理软件，安装 <strong>hexo</strong> 就很方便了，只需要一行命令：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli <span class="comment"># 全局安装hexo命令行工具</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli <span class="comment"># 也可以使用cnpm进行安装</span></span><br></pre></td></tr></table></figure>
+<p>其中<code>-g</code>参数表示全局安装，没有这个参数就只在当前目录下安装，建议全局安装。</p>
+<p>【2】验证安装。要检查安装是否成功，请运行以下命令，它将打印出 Hexo 的版本号</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="3-2-Hexo的初始化"><a href="#3-2-Hexo的初始化" class="headerlink" title="3.2 Hexo的初始化"></a>3.2 Hexo的初始化</h3><p>【1】在你选择的目录下新建一个目录</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> Hexo目录名称 <span class="comment"># 我是在/root目录下新建的目录, 取名为MyHexoBlog</span></span><br></pre></td></tr></table></figure>
+
+<p>【2】使用 <code>cd</code> 命令进入该目录，并运行Hexo初始化命令</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init <span class="comment"># 新建一个网站。如果没有设置 `folder` ，Hexo 默认在目前的文件夹建立网站。</span></span><br></pre></td></tr></table></figure>
+<p>本命令相当于执行了以下几步：</p>
+<ol>
+<li>Git clone <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-starter">hexo-starter</a> 和 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-theme-landscape">hexo-theme-landscape</a> 主题到当前目录或指定目录。</li>
+<li>使用 <a target="_blank" rel="noopener" href="https://classic.yarnpkg.com/lang/en/">Yarn 1</a>、<a target="_blank" rel="noopener" href="https://pnpm.js.org/">pnpm</a> 或 <a target="_blank" rel="noopener" href="https://docs.npmjs.com/cli/install">npm</a> 包管理器下载依赖（如有已安装多个，则列在前面的优先）。npm 默认随 <a target="_blank" rel="noopener" href="https://hexo.io/docs/#Install-Node-js">Node.js</a> 安装。</li>
+</ol>
+<p>【3】启动服务器</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo server <span class="comment"># 启动服务器。默认情况下，访问网址为： `http://localhost:4000/`。</span></span><br><span class="line"></span><br><span class="line">选项	描述</span><br><span class="line">-p, --port	重设端口</span><br><span class="line">-s, --static	只使用静态文件</span><br><span class="line">-l, --<span class="built_in">log</span>	启动日记记录，使用覆盖记录格式</span><br></pre></td></tr></table></figure>
+
+<p>博客项目目录结构介绍</p>
+<figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">.  </span><br><span class="line">├── _config.landscape.yml  </span><br><span class="line">├── _config.yml  </span><br><span class="line">├── node_modules  </span><br><span class="line">├── <span class="keyword">package</span>-lock.json  </span><br><span class="line">├── <span class="keyword">package</span>.json  </span><br><span class="line">├── scaffolds  </span><br><span class="line">├── source  </span><br><span class="line">├── themes</span><br><span class="line">└── .......</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;_config.yml&quot;</span>: 为全局配置文件，网站的很多信息都在这里配置，比如说网站名称，副标题，描述，作者，语言，主题等等。</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;scaffolds&quot;</span>: 骨架文件，是生成新页面或者新博客的模版。可以根据需求编辑，当<span class="string">`hexo`</span>生成新博客的时候，会用这里面的模版进行初始化。</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;source&quot;</span>: 这个文件夹下面存放的是网站的<span class="string">`markdown`</span>源文件，里面有一个<span class="string">`_post`</span>文件夹，所有的<span class="string">`.md`</span>博客文件都会存放在这个文件夹下。现在，你应该能看到里面有一个<span class="string">`hello-world.md`</span>文件。</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;themes&quot;</span>: 网站主题目录，<span class="string">`hexo`</span>有非常丰富的主题支持，主题目录会存放在这个目录下面。默认主题为landscape</span><br><span class="line">......</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="3-3-生成新的文章"><a href="#3-3-生成新的文章" class="headerlink" title="3.3 生成新的文章"></a>3.3 生成新的文章</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">&quot;文章标题&quot;</span> <span class="comment"># n为new的简写, 也可以用new. 会在 source/_posts/ 目录下生成文件 ‘文章标题.md’</span></span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands">更多用法请看文档</a></p>
+<p>想给文章添加内容就进入source/_posts/ 目录下打开。</p>
+<hr>
+<h3 id="3-4-通过Git部署文章"><a href="#3-4-通过Git部署文章" class="headerlink" title="3.4 通过Git部署文章"></a>3.4 通过Git部署文章</h3><h4 id="3-4-1-准备工作"><a href="#3-4-1-准备工作" class="headerlink" title="3.4.1 准备工作"></a>3.4.1 准备工作</h4><p>【1】在Github等平台上创建一个远程仓库：<font color = #ff0000>YourGithubName.github.io</font></p>
+<p>【2】如果想使用Hexo命令将博客发布到远程仓库，还需要通过npm下载一个工具</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git <span class="comment">#在MyHexoBlog目录下安装Git部署插件  </span></span><br><span class="line">npm install hexo-deployer-git --save <span class="comment"># 使用npm的话就输入这个命令</span></span><br></pre></td></tr></table></figure>
+
+<p>【3】修改 _config.yml<br>通过Vim查看该文件，添加如下内容：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># 直接去平台的仓库那直接复制, 有HTTPS协议和SSH协议的, 如果使用SSH协议, 就不用在之后的某个操作中填写平台的用户名和密码</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span> <span class="comment"># 如果是发布到Github上, 现在Github已经将主分支这个词从原本的master改为更加中性的main了, 但是目前Gitee还没有实施, 所以可以根据情况而定.</span></span><br></pre></td></tr></table></figure>
+<p>说明：</p>
+<ol>
+<li><p>如果无法通过https协议进行推送, 就使用SSH协议, 不用输入用户名和密码, 命令改成：<br>repo: <a href="mailto:&#103;&#x69;&#x74;&#x40;&#x67;&#x69;&#116;&#x68;&#x75;&#x62;&#46;&#99;&#111;&#109;">&#103;&#x69;&#x74;&#x40;&#x67;&#x69;&#116;&#x68;&#x75;&#x62;&#46;&#99;&#111;&#109;</a>:YourGithubName&#x2F;YourGithubName.github.io.git</p>
+</li>
+<li><p>现在Github的主分支名称已经从master改为更中性的main了, 所以为了避免发生不必要的错误, 以下内容可以改成：branch: main</p>
+</li>
+</ol>
+<hr>
+<h4 id="3-4-2-使用命令部署博客"><a href="#3-4-2-使用命令部署博客" class="headerlink" title="3.4.2 使用命令部署博客"></a>3.4.2 使用命令部署博客</h4><p>【1】clean</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<p>清除缓存文件 (<strong>db.json</strong>) 和已生成的静态文件 (<strong>public</strong>)。</p>
+<p>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</p>
+<p>【2】generate</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate <span class="comment"># 可简写为 hexo g</span></span><br></pre></td></tr></table></figure>
+<p>生成静态文件。</p>
+<p>【3】deploy</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy <span class="comment"># 可简写为 hexo d</span></span><br></pre></td></tr></table></figure>
+
+<p>理解并熟练这三条命令之后，可以合并成一条进行使用</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="四、查看博客"><a href="#四、查看博客" class="headerlink" title="四、查看博客"></a>四、查看博客</h2><p>点开一个浏览器，在其上方地址栏中输入网站的URL地址，正常来讲就可以看到你的网站了</p>
+<figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="comment">//YourPlatformName.github.io/ #查看博客</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="五、更换主题"><a href="#五、更换主题" class="headerlink" title="五、更换主题"></a>五、更换主题</h2><p>Hexo的默认主题为<strong>landscape</strong>，我们也可以找其它大佬制作好的我们喜欢的主题来使用到我们的博客上。</p>
+<p>主题：<font color = #ff0000>yilia</font></p>
+<p>【1】使用Git克隆到本地</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@github.com:litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure>
+
+<p>命令中的<strong>themes&#x2F;yilia</strong>为指定克隆到本地的目标路径，因为执行<code>hexo init</code>命令之后在当前的空目录下就初始化好了一个<strong>themes</strong>目录，这个目录就是用来存放别人做好的主题的。</p>
+<p>【2】然后通过修改 <font color = #ff0000> _config.yml</font> 文件中主题样式字段来更换我们博客的主题(记得保存退出)</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">yilia</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+<p>【3】关于<strong>yilia</strong>这个主题所要补充的模块</p>
+<figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">缺失模块。  </span><br><span class="line"><span class="number">1.</span> 请确保node版本大于<span class="number">6.2</span></span><br><span class="line"></span><br><span class="line"><span class="number">2.</span> 在博客根目录（注意不是yilia根目录）执行以下命令：  </span><br><span class="line">npm i hexo-generator-json-content --save  </span><br><span class="line">  </span><br><span class="line"><span class="number">3.</span> 在根目录_config.yml里添加配置(记得保存退出)：</span><br><span class="line">jsonContent:</span><br><span class="line">    meta: <span class="literal">false</span></span><br><span class="line">    pages: <span class="literal">false</span></span><br><span class="line">    posts:</span><br><span class="line">      title: <span class="literal">true</span></span><br><span class="line">      date: <span class="literal">true</span></span><br><span class="line">      path: <span class="literal">true</span></span><br><span class="line">      text: <span class="literal">false</span></span><br><span class="line">      raw: <span class="literal">false</span></span><br><span class="line">      content: <span class="literal">false</span></span><br><span class="line">      slug: <span class="literal">false</span></span><br><span class="line">      updated: <span class="literal">false</span></span><br><span class="line">      comments: <span class="literal">false</span></span><br><span class="line">      link: <span class="literal">false</span></span><br><span class="line">      permalink: <span class="literal">false</span></span><br><span class="line">      excerpt: <span class="literal">false</span></span><br><span class="line">      categories: <span class="literal">false</span></span><br><span class="line">      tags: <span class="literal">true</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>【4】接着就是发布了</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. hexo clean</span><br><span class="line">2. hexo g</span><br><span class="line">3. hexo d</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><h3 id="1-关于SSH协议"><a href="#1-关于SSH协议" class="headerlink" title="1. 关于SSH协议"></a>1. 关于SSH协议</h3><figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">Q(MyPrompt):</span><br><span class="line">简述一个跟Git相关的SSH</span><br><span class="line"></span><br><span class="line">A(NewBing):</span><br><span class="line">SSH（Secure Shell）是一种安全协议，用于在计算机之间进行加密通信。它通常用于远程登录和远程命令执行，但也可以用于其他目的，例如安全文件传输。</span><br><span class="line"></span><br><span class="line">在 Gt 中，SSH 可以用作一种远程仓库的传输协议。当您使用 SSH 协议与远程仓库通信时，Git 会使用 SSH 客户端来建立与远程仓库的安全连接。这样，您就可以在本地计算机和远程仓库之间安全地传输数据。</span><br><span class="line"></span><br><span class="line">要使用 SSH 协议与远程仓库通信，您需要在本地计算机上生成一对 SSH 密钥，并将公钥添加到远程仓库的账户设置中。这样，当您使用 SSH 协议与远程仓库通信时，Git 就会使用您的私钥来验证您的身份。</span><br><span class="line"></span><br><span class="line">SSH 协议的一个优点是它可以提供更高的安全性。由于数据在传输过程中是加密的，因此即使被截获也无法被读取。此外，SSH 协议还支持公钥认证，这意味着您可以在不输入密码的情况下与远程仓库通信。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="参考内容"><a href="#参考内容" class="headerlink" title="参考内容"></a>参考内容</h1><ul>
+<li><p>官方文档</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands">指令 | Hexo</a> &#x2F;&#x2F; 中文文档</li>
+<li><a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">One-Command Deployment | Hexo</a> &#x2F;&#x2F; 英文文档 <br></li>
+</ol>
+</li>
+<li><p>教学视频</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty/?spm_id_from=333.880.my_history.page.click&vd_source=f728ea5adb6e4a977a611df7252af922">手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili</a> _作者：CodeSheep</li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1qD4y1z783/?spm_id_from=333.880.my_history.page.click&vd_source=f728ea5adb6e4a977a611df7252af922">超详细的个人博客搭建教程（无需服务器）- 从原理到实践手把手带你搭建属于自己的个人博客_哔哩哔哩_bilibili</a> _作者：爱扑bug的熊 <br></li>
+</ol>
+</li>
+<li><p>图文教程</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://blog.cuijiacai.com/blog-building/">个人博客搭建教程 | 爱扑bug的熊 (cuijiacai.com)</a> _作者：爱扑bug的熊</li>
+</ol>
+</li>
+</ul>
+<hr>
 
       
 
@@ -216,6 +363,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">test, V1.0</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -266,7 +424,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2023/05/20/hello-world/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2023/05/21/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hexo-Gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -280,15 +438,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2023/05/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          我的第一篇博客文章
-        
-      </div>
-    </a>
   
+    <a href="/2023/05/20/%E3%80%90%E6%94%B6%E5%BD%95%E3%80%91Linux%E5%B8%B8%E8%A7%81%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">【收录】Linux常见快捷操作</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
