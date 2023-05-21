@@ -165,7 +165,7 @@
 
         
         <a href="/2023/05/21/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hexo-Gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
-  	<time datetime="2023-05-21T08:01:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-05-21</time>
+  	<time datetime="2023-05-21T13:00:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-05-21</time>
 </a>
         
       </header>
@@ -192,7 +192,7 @@
 <p><a href="#%E4%BA%94%E3%80%81%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98">五、更换主题</a></p>
 <p><a href="#%E7%9F%A5%E8%AF%86%E7%82%B9">知识点</a></p>
 <blockquote>
-<p>[1. 关于SSH协议](#1. 关于SSH协议)</p>
+<p><a href="#1.%E3%80%81%E5%85%B3%E4%BA%8ESSH%E5%8D%8F%E8%AE%AE">1.、关于SSH协议</a></p>
 </blockquote>
 <p><a href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9">参考内容</a></p>
 </blockquote>
@@ -277,7 +277,7 @@
 <p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands">更多用法请看文档</a></p>
 <p>想给文章添加内容就进入source/_posts/ 目录下打开。</p>
 <hr>
-<h3 id="3-4、通过Git部署文章"><a href="#3-4、通过Git部署文章" class="headerlink" title="3.4、通过Git部署文章"></a>3.4、通过Git部署文章</h3><h4 id="3-4-1-准备工作"><a href="#3-4-1-准备工作" class="headerlink" title="3.4.1 准备工作"></a>3.4.1 准备工作</h4><p>【1】在Github等平台上创建一个远程仓库：<font color = #ff0000>YourGithubName.github.io</font></p>
+<h3 id="3-4、通过Git部署文章"><a href="#3-4、通过Git部署文章" class="headerlink" title="3.4、通过Git部署文章"></a>3.4、通过Git部署文章</h3><h4 id="3-4-1、准备工作"><a href="#3-4-1、准备工作" class="headerlink" title="3.4.1、准备工作"></a>3.4.1、准备工作</h4><p>【1】在Github等平台上创建一个远程仓库：<font color = #ff0000>YourGithubName.github.io</font></p>
 <p>【2】如果想使用Hexo命令将博客发布到远程仓库，还需要通过npm下载一个工具</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git <span class="comment">#在MyHexoBlog目录下安装Git部署插件  </span></span><br><span class="line">npm install hexo-deployer-git --save <span class="comment"># 使用npm的话就输入这个命令</span></span><br></pre></td></tr></table></figure>
 
@@ -285,13 +285,13 @@
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># 直接去平台的仓库那直接复制, 有HTTPS协议和SSH协议的, 如果使用SSH协议, 就不用在之后的某个操作中填写平台的用户名和密码</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span> <span class="comment"># 如果是发布到Github上, 现在Github已经将主分支这个词从原本的master改为更加中性的main了, 但是目前Gitee还没有实施, 所以可以根据情况而定.</span></span><br></pre></td></tr></table></figure>
 <p>说明：</p>
 <ol>
-<li><p>如果无法通过https协议进行推送, 就使用SSH协议, 不用输入用户名和密码, 命令改成：<br>repo: <a href="mailto:&#103;&#105;&#116;&#64;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#x63;&#x6f;&#x6d;">&#103;&#105;&#116;&#64;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#x63;&#x6f;&#x6d;</a>:YourGithubName&#x2F;YourGithubName.github.io.git</p>
+<li><p>如果无法通过https协议进行推送, 就使用SSH协议, 不用输入用户名和密码, 命令改成：<br>repo: <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#x68;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#x68;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;</a>:YourGithubName&#x2F;YourGithubName.github.io.git</p>
 </li>
 <li><p>现在Github的主分支名称已经从master改为更中性的main了, 所以为了避免发生不必要的错误, 以下内容可以改成：branch: main</p>
 </li>
 </ol>
 <hr>
-<h4 id="3-4-2-使用命令部署博客"><a href="#3-4-2-使用命令部署博客" class="headerlink" title="3.4.2 使用命令部署博客"></a>3.4.2 使用命令部署博客</h4><p>【1】clean</p>
+<h4 id="3-4-2、使用命令部署博客"><a href="#3-4-2、使用命令部署博客" class="headerlink" title="3.4.2、使用命令部署博客"></a>3.4.2、使用命令部署博客</h4><p>【1】clean</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
 <p>清除缓存文件 (<strong>db.json</strong>) 和已生成的静态文件 (<strong>public</strong>)。</p>
 <p>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</p>
@@ -361,7 +361,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">V1.1; Test</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">V1.2</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Test</a>
         		</li>
       		
 		</ul>
@@ -728,11 +732,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">test V1.0</a>
+                <a href="javascript:void(0)" class="js-tag color5">V1.2</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">V1.1; Test</a>
+                <a href="javascript:void(0)" class="js-tag color5">Test</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">test V1.0</a>
               </li>
             
             <div class="clearfix"></div>
